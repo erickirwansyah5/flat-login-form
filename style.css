@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url('bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+.container{
+	margin: 150px auto;
+	width: 400px;
+	padding: 40px;
+	background: rgba(0,0,0,0.4);
+	box-shadow: 10px 40px 10px -40px rgba(0,0,0,0.4);
+	border-radius: 5px;
+}
+.container h2{
+	text-align: center;
+	color: #fff;
+	padding: 0;
+	margin: 0px 0px 35px;
+}
+.container .input {
+	position: relative;
+}
+.container .input input{
+	width: 100%;
+	padding: 11px 0;
+	outline: none;
+	border:none;
+	background: transparent;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 30px;
+	font-size: 14px;
+	color: #fff;
+	letter-spacing: 1px;
+}
+input::-webkit-input-placeholder{
+	color: rgba(255,255,255,0.7);
+}
+.container button{
+	outline: none;
+	border:none;
+	background: transparent;
+	background: #03a9f3;
+	padding: 10px 30px;
+	border-radius: 2px;
+	color: #fff;
+}
+.container p {
+	color: #fff;
+	letter-spacing: 1px;
+}
+.container p a{
+	text-decoration: none;
+	color: #03a9f4;
+
+}
+.container i 
+{
+	position: absolute;
+	right: 0;
+	top: 18px;
+	color: #fff;
+}
+.container:hover{
+	box-shadow: 0px 70px 10px -40px rgba(0,0,0,0.4);
+	margin-top: 140px;
+}
